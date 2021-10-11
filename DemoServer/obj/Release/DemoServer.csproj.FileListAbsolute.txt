@@ -1,0 +1,12 @@
+F:\tmp\git\SimpleTCPSocket\DemoServer\bin\Release\DemoServer.exe.config
+F:\tmp\git\SimpleTCPSocket\DemoServer\bin\Release\DemoServer.exe
+F:\tmp\git\SimpleTCPSocket\DemoServer\bin\Release\DemoServer.pdb
+F:\tmp\git\SimpleTCPSocket\DemoServer\bin\Release\SimpleTCPCommon.dll
+F:\tmp\git\SimpleTCPSocket\DemoServer\bin\Release\SimpleTCPServer.dll
+F:\tmp\git\SimpleTCPSocket\DemoServer\bin\Release\SimpleTCPCommon.pdb
+F:\tmp\git\SimpleTCPSocket\DemoServer\bin\Release\SimpleTCPServer.pdb
+F:\tmp\git\SimpleTCPSocket\DemoServer\obj\Release\DemoServer.csprojAssemblyReference.cache
+F:\tmp\git\SimpleTCPSocket\DemoServer\obj\Release\DemoServer.csproj.CoreCompileInputs.cache
+F:\tmp\git\SimpleTCPSocket\DemoServer\obj\Release\DemoServer.csproj.CopyComplete
+F:\tmp\git\SimpleTCPSocket\DemoServer\obj\Release\DemoServer.exe
+F:\tmp\git\SimpleTCPSocket\DemoServer\obj\Release\DemoServer.pdb

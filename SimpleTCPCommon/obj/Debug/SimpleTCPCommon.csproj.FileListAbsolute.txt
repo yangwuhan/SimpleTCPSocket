@@ -1,0 +1,6 @@
+F:\tmp\git\SimpleTCPSocket\SimpleTCPCommon\bin\Debug\SimpleTCPCommon.dll
+F:\tmp\git\SimpleTCPSocket\SimpleTCPCommon\bin\Debug\SimpleTCPCommon.pdb
+F:\tmp\git\SimpleTCPSocket\SimpleTCPCommon\obj\Debug\SimpleTCPCommon.dll
+F:\tmp\git\SimpleTCPSocket\SimpleTCPCommon\obj\Debug\SimpleTCPCommon.pdb
+F:\tmp\git\SimpleTCPSocket\SimpleTCPCommon\obj\Debug\SimpleTCPCommon.csprojAssemblyReference.cache
+F:\tmp\git\SimpleTCPSocket\SimpleTCPCommon\obj\Debug\SimpleTCPCommon.csproj.CoreCompileInputs.cache

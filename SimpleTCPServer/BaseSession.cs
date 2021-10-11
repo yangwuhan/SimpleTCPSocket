@@ -172,12 +172,36 @@ namespace Tz.SimpleTCPSocket.Server
                     var stm = frame.GetBodyStream();
                     UInt32 stm_size = frame.GetBodySteamSize();
                     UInt32 block_count = (stm_size / (UInt32)__buffer_send.Length) + (stm_size % (UInt32)__buffer_send.Length > 0 ? (UInt32)1 : (UInt32)0);
-                    for (UInt32 i = 0; i < block_count; ++i)
+                    UInt32 sended = 0;
+                    int tick_start = Environment.TickCount;
+                    int max_bit_count_per_misec = 1024 * 1024 / 1000;
+                    for (UInt32 i = 0; i < block_count; )
                     {
                         UInt32 lft = stm_size % (UInt32)__buffer_send.Length;
                         UInt32 to_copy = (i == block_count - 1 ? (lft > 0 ? lft : (UInt32)__buffer_send.Length) : (UInt32)__buffer_send.Length);
+
+                        int tick_end = Environment.TickCount;
+                        if (tick_end == tick_start && (sended * 8) >= max_bit_count_per_misec)
+                        {
+                            System.Threading.Thread.Sleep(1);
+                            continue;
+                        }
+                        else if (tick_end > tick_start)
+                        {
+                            float speed = (float)sended * 8.0f / (float)(tick_end - tick_start);
+                            if(speed >= max_bit_count_per_misec)
+                            {
+                                System.Threading.Thread.Sleep(1);
+                                continue;
+                            }
+                        }
+
                         stm.Read(__buffer_send, 0, (int)to_copy);
                         __Send(__buffer_send, 0, (int)to_copy);
+
+                        sended += to_copy;
+
+                        ++i;
                     }
                 }               
                 __last_communication_time = DateTime.Now;

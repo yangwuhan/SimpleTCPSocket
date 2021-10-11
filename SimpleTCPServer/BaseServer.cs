@@ -576,7 +576,7 @@ namespace Tz.SimpleTCPSocket.Server
                             if (last_communication_time == null)
                                 ts = now - accept_time;
                             else
-                                ts = last_communication_time.Value - accept_time;
+                                ts = now - last_communication_time.Value;
                             if (ts.TotalSeconds > _config.MaxKeepLiveSecond)
                                 sessioin.SetOffline();
                         }

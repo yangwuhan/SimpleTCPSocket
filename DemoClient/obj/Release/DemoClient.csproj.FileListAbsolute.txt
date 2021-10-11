@@ -1,0 +1,10 @@
+F:\tmp\git\SimpleTCPSocket\DemoClient\bin\Release\DemoClient.exe.config
+F:\tmp\git\SimpleTCPSocket\DemoClient\bin\Release\DemoClient.exe
+F:\tmp\git\SimpleTCPSocket\DemoClient\bin\Release\DemoClient.pdb
+F:\tmp\git\SimpleTCPSocket\DemoClient\bin\Release\SimpleTCPCommon.dll
+F:\tmp\git\SimpleTCPSocket\DemoClient\bin\Release\SimpleTCPCommon.pdb
+F:\tmp\git\SimpleTCPSocket\DemoClient\obj\Release\DemoClient.csprojAssemblyReference.cache
+F:\tmp\git\SimpleTCPSocket\DemoClient\obj\Release\DemoClient.csproj.CoreCompileInputs.cache
+F:\tmp\git\SimpleTCPSocket\DemoClient\obj\Release\DemoClient.csproj.CopyComplete
+F:\tmp\git\SimpleTCPSocket\DemoClient\obj\Release\DemoClient.exe
+F:\tmp\git\SimpleTCPSocket\DemoClient\obj\Release\DemoClient.pdb

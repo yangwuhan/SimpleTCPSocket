@@ -1,0 +1,5 @@
+F:\tmp\git\SimpleTCPSocket\SimpleTCPCommon\bin\Release\SimpleTCPCommon.dll
+F:\tmp\git\SimpleTCPSocket\SimpleTCPCommon\bin\Release\SimpleTCPCommon.pdb
+F:\tmp\git\SimpleTCPSocket\SimpleTCPCommon\obj\Release\SimpleTCPCommon.csproj.CoreCompileInputs.cache
+F:\tmp\git\SimpleTCPSocket\SimpleTCPCommon\obj\Release\SimpleTCPCommon.dll
+F:\tmp\git\SimpleTCPSocket\SimpleTCPCommon\obj\Release\SimpleTCPCommon.pdb
